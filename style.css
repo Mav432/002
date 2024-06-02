@@ -1,0 +1,156 @@
+.bodyIndex {
+    margin: 0;
+    padding: 0;
+    background-image: url(birds-vector-landscape-minimal-4k-ur-2560x1600.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(93, 0, 255, 0.911);
+    height: 90px;
+}
+
+.titulo {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.textoIndex {
+    background-color: rgba(186, 168, 210, 0.721);
+    padding: 50px;
+    position:relative;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+}
+/*menu*/
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+/*maqueta*/
+.container{
+    display: flex;
+    overflow-x: hidden;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.section{
+    flex: 0 0 70%;
+    height: auto;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(12, 12, 91, 0.767);
+}
+
+.article{
+    background-color: rgba(68, 156, 234, 0.636);
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-right: 10%;
+    height: 90px;
+    border-radius: 20px;
+    padding: 50px;
+    scrollbar-width: 100px;
+}
+
+.aside{
+    background-color: rgba(11, 76, 228, 0.6);
+    flex: 0 0 30%;
+    height: 300px;
+    width: 50px;
+    margin: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.footer{
+    background-color: rgba(99, 2, 100, 0.579);
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: end;
+}
+
+/*slider*/
+.slider-frame{
+    width: 480px;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
